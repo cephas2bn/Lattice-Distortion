@@ -371,7 +371,7 @@ def get_VEC_SD(elements):
     variance = 0
     for x,p in zip(outcomes,proportions):
         variance += (x - avg)**2 * p
-    SD = variance**.5
+    SD = variance**.5                    
     
     return SD
 
